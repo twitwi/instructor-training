@@ -94,7 +94,7 @@ that students can refer back to during the lesson to shore up their short term m
 
 [Exercise 2: Concept Maps, Part 2](http://mozillascience.github.io/instructorTraining/knowledgeAndExpertise/conceptMapping.html)
 
-Concpet maps have given us a practical tool for structuring content, systematizing teaching, and interfacing with memory.
+Concept maps have given us a practical tool for structuring content, systematizing teaching, and interfacing with memory.
 They'll also help us get a handle on the second big question we started with in the introduction:
 how can we understand the nature of competency, help our students achieve it, and distinguish it from mastery?
 
