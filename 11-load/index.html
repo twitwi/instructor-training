@@ -1,0 +1,478 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta http-equiv="last-modified" content="2017-01-30 00:04:23 +0100">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- meta "search-domain" used for google site search function google_search() -->
+    <meta name="search-domain" value="/swc-releases/1999.12/instructor-training">
+    <link rel="stylesheet" type="text/css" href="../assets/css/bootstrap.css" />
+    <link rel="stylesheet" type="text/css" href="../assets/css/bootstrap-theme.css" />
+    <link rel="stylesheet" type="text/css" href="../assets/css/lesson.css" />
+    
+    <link rel="shortcut icon" type="image/x-icon" href="/favicon-swc.ico" />
+    
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+	<script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+	<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+	<![endif]-->
+    <title>Instructor Training: Cognitive Load</title>
+  </head>
+  <body>
+    <div class="container">
+      
+<nav class="navbar navbar-default">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+
+      
+      
+      <a href="https://software-carpentry.org" class="pull-left">
+        <img class="navbar-logo" src="../assets/img/swc-icon-blue.svg" alt="Software Carpentry logo" />
+      </a>
+      
+
+      
+      <a class="navbar-brand" href="../">Home</a>
+
+    </div>
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+
+	
+        <li><a href="../conduct/">Code of Conduct</a></li>
+
+	
+        
+        <li><a href="../setup/">Setup</a></li>
+        <li><a href="../reference/">Reference</a></li>
+        <li class="dropdown">
+          <a href="../" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Episodes <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            
+            <li><a href="../01-welcome/">Welcome</a></li>
+            
+            <li><a href="../02-novice/">Novices and Formative Assessment</a></li>
+            
+            <li><a href="../03-terms/">Terms</a></li>
+            
+            <li><a href="../04-coffee/">Morning Coffee</a></li>
+            
+            <li><a href="../05-performance/">Teaching as a Performance Art</a></li>
+            
+            <li><a href="../06-summarize/">Morning Wrap-Up</a></li>
+            
+            <li><a href="../07-lunch/">Lunch</a></li>
+            
+            <li><a href="../08-memory/">Expertise and Memory</a></li>
+            
+            <li><a href="../09-coffee/">Afternoon Coffee</a></li>
+            
+            <li><a href="../10-performance/">Performance Revised</a></li>
+            
+            <li><a href="../11-load/">Cognitive Load</a></li>
+            
+            <li><a href="../12-summarize/">Afternoon Wrap-Up</a></li>
+            
+            <li><a href="../13-live/">Live Coding</a></li>
+            
+            <li><a href="../14-coffee/">Morning Coffee</a></li>
+            
+            <li><a href="../15-practices/">Carpentry Teaching Practices</a></li>
+            
+            <li><a href="../16-motivation/">Motivation and Demotivation</a></li>
+            
+            <li><a href="../17-summarize/">Morning Wrap-Up</a></li>
+            
+            <li><a href="../18-lunch/">Lunch</a></li>
+            
+            <li><a href="../19-lessons/">Lessons and Objectives</a></li>
+            
+            <li><a href="../20-coffee/">Afternoon Coffee</a></li>
+            
+            <li><a href="../21-carpentries/">The Carpentries</a></li>
+            
+            <li><a href="../22-summarize/">Afternoon Wrap-Up</a></li>
+            
+          </ul>
+        </li>
+	
+
+	
+	
+        <li class="dropdown">
+          <a href="../" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Extras <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            
+            <li><a href="../about/">About</a></li>
+            
+            <li><a href="../checkout/">Checkout Procedure</a></li>
+            
+            <li><a href="../discuss/">Discussion</a></li>
+            
+            <li><a href="../exercises/">Extra Exercises</a></li>
+            
+            <li><a href="../figures/">Figures</a></li>
+            
+            <li><a href="../guide/">Instructor Notes</a></li>
+            
+            <li><a href="../testimonials/">Testimonials</a></li>
+            
+          </ul>
+        </li>
+	
+
+	
+        <li><a href="../license/">License</a></li>
+      </ul>
+      <form class="navbar-form navbar-right" role="search" id="search" onsubmit="google_search(); return false;">
+        <div class="form-group">
+          <input type="text" id="google-search" placeholder="Search..." aria-label="Google site search">
+        </div>
+      </form>
+    </div>
+  </div>
+</nav>
+
+
+<div class="row">
+  <div class="col-md-1">
+    <h3>
+      
+      <a href="../10-performance/"><span class="glyphicon glyphicon-menu-left" aria-hidden="true"></span><span class="sr-only">previous episode</span></a>
+      
+    </h3>
+  </div>
+  <div class="col-md-10">
+    
+    <h3 class="maintitle"><a href="../">Instructor Training</a></h3>
+    <h1 class="maintitle">Cognitive Load</h1>
+    
+  </div>
+  <div class="col-md-1">
+    <h3>
+      
+      <a href="../12-summarize/"><span class="glyphicon glyphicon-menu-right" aria-hidden="true"></span><span class="sr-only">next episode</span></a>
+      
+    </h3>
+  </div>
+</div>
+
+
+<blockquote class="objectives">
+  <h2>Overview</h2>
+
+  <div class="row">
+    <div class="col-md-3">
+      <strong>Teaching:</strong> 20 min
+      <br/>
+      <strong>Exercises:</strong> 20 min
+    </div>
+    <div class="col-md-9">
+      <strong>Questions</strong>
+      <ul>
+	
+	<li><p>How does inquiry-based learning perform compared to guided learning?</p>
+</li>
+	
+	<li><p>What is cognitive load theory?</p>
+</li>
+	
+	<li><p>What is the split-attention effect, and how should it affect the design of teaching materials?</p>
+</li>
+	
+      </ul>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-md-3">
+    </div>
+    <div class="col-md-9">
+      <strong>Objectives</strong>
+      <ul>
+	
+	<li><p>Explain the basis and implications of cognitive load theory and critique it.</p>
+</li>
+	
+	<li><p>Construct faded examples for use as classroom exercises and explain the problem-solving strategies those examples illustrate.</p>
+</li>
+	
+      </ul>
+    </div>
+  </div>
+
+</blockquote>
+
+<p>In our final topic in educational psychology, we’ll be learning more about human memory:
+specifically how to remove unnecessary “load” in order to facilitate learning.</p>
+
+<h2 id="battling-theories">Battling Theories</h2>
+
+<p>In 2006,
+Kirschner, Sweller, and Clark published a paper titled
+“<a href="http://www.cogtech.usc.edu/publications/kirschner_Sweller_Clark.pdf">Why Minimal Guidance During Instruction Does Not Work: An Analysis of the Failure of Constructivist, Discovery, Problem-Based, Experiential, and Inquiry-Based Teaching</a>”.
+In the abstract, they say:</p>
+
+<blockquote class="quotation">
+  <p>Although unguided or minimally guided instructional approaches
+are very popular and intuitively appealing…these approaches
+ignore both the structures that constitute human cognitive architecture
+and evidence from empirical studies over the past half-century
+that consistently indicate that minimally guided instruction is less effective and less efficient than
+instructional approaches that place a strong emphasis on guidance of the student learning process.
+The advantage of guidance begins to recede only when learners have
+sufficiently high prior knowledge to provide “internal” guidance.</p>
+</blockquote>
+
+<p>The paper set off a minor academic firestorm,
+because beneath the jargon the authors were claiming that
+<a href="https://en.wikipedia.org/wiki/Inquiry-based_learning">inquiry-based learning</a>—allowing
+learners to ask their own questions,
+set their own goals,
+and find their own path through a subject—doesn’t actually work very well.
+Kirschner et al’s argument was that it requires learners to simultaneously
+master a domain’s factual content
+and its search and problem-solving strategies.
+Fostering creativity and independence is intuitively appealing,
+but that doesn’t mean it works.</p>
+
+<p>One of the paper’s authors (Sweller) proposed an alternative
+based on the theory of <em><a href="https://en.wikipedia.org/wiki/Cognitive_load">cognitive load</a></em>.
+It posits that people have to deal with three things when they’re learning:</p>
+
+<ul>
+  <li><em>Intrinsic</em> load is what they have to keep in mind in order to carry out a learning task.</li>
+  <li><em>Germane</em> load is the (desirable) mental effort required to create linkages between new information and old
+(which is one of the things that distinguishes learning from memorization).</li>
+  <li><em>Extraneous</em> load is everything else that distracts or gets in the way.</li>
+</ul>
+
+<p>Cognitive load theory’s proponents claim that eliminating extraneous cognitive load accelerates learning.
+Unsurprisingly,
+it too has <a href="https://edtechdev.wordpress.com/2009/11/16/cognitive-load-theory-failure/">been criticized</a>,
+most particularly for being unfalsifiable.
+Critics of cognitive load theory say that
+since there’s no way to tell in advance of an experiment whether something is germane or not,
+any result can be justified after the fact
+by labelling things that hurt performance as “extraneous”
+and things that don’t “germane”.</p>
+
+<p>However,
+some predictions <em>can</em> be made.
+One example is work by Mayer and colleagues on
+the <em><a href="https://en.wikipedia.org/wiki/Split_attention_effect">split-attention effect</a></em>.
+Linguistic and visual input are processed by different parts of the human brain,
+and linguistic and visual memories are stored separately as well.
+This means that correlating linguistic, auditory, and visual streams of information takes cognitive effort:
+when someone reads something while hearing it spoken aloud,
+their brain can’t help but check that it’s getting the same information on both channels.
+Learning is therefore more effective when redundant information is <em>not</em> being presented simultaneously
+in two different channels.
+For example,
+people find it harder to learn from a video that has both narration and on-screen captions
+than from one that has either the narration or the captions but not both.</p>
+
+<h2 id="faded-examples">Faded Examples</h2>
+
+<p>According to cognitive load theory,
+searching for a solution strategy is an extra burden
+on top of applying that strategy.
+We can therefore accelerate learning
+by giving learners worked examples that show them a problem and a detailed step-by-step solution,
+followed by a series of <em>faded examples</em>.
+The first of these presents a nearly-complete use of the same problem-solving strategy just demonstrated
+with a small number of blanks for the learner to fill in.
+The next problem is also of the same type,
+but has more blanks,
+and so on until the learner is asked to solve the entire problem.</p>
+
+<p>Faded examples work because they introduce the problem-solving strategy piece by piece.
+At each step,
+learners have one new problem to tackle.
+This is less intimidating than a blank screen or a blank sheet of paper.
+It also encourages learners to think about the similarities and differences between various approaches,
+which helps create the linkages in the mental model that instructors want them to form.</p>
+
+<p>For example,
+someone teaching Python might start by explaining this:</p>
+
+<div class="source highlighter-rouge"><pre class="highlight"><code># total_length(["red", "green", "blue"]) =&gt; 12
+def total_length(words):
+    total = 0
+    for word in words:
+        total += len(word)
+    return total
+</code></pre>
+</div>
+
+<p>then ask learners to fill in the blanks in:</p>
+
+<div class="source highlighter-rouge"><pre class="highlight"><code># word_lengths(["red", "green", "blue"]) =&gt; [3, 5, 4]
+def word_lengths(words):
+    lengths = ____
+    for word in words:
+        lengths ____
+    return lengths
+</code></pre>
+</div>
+
+<p>The next problem might be:</p>
+
+<div class="source highlighter-rouge"><pre class="highlight"><code># concatenate_all(["red", "green", "blue"]) =&gt; "redgreenblue"
+def concatenate_all(words):
+    result = ____
+    for ____ in ____:
+        ____
+    return result
+</code></pre>
+</div>
+
+<p>and learners would finally be asked to tackle:</p>
+
+<div class="source highlighter-rouge"><pre class="highlight"><code># acronymize(["red", "green", "blue"]) =&gt; "RGB"
+def acronymize(words):
+    ____
+</code></pre>
+</div>
+
+<p>The key to constructing a good faded example is to think about the problem-solving strategy
+or solution pattern that it is meant to teach.
+For example,
+the series of problems above illustrate the <em>accumulator pattern</em>,
+in which the results of processing items from a collection
+are repeatedly added to a single variable in some way
+to create the final result.</p>
+
+<blockquote class="challenge">
+  <h2 id="create-a-faded-example-from-a-lesson">Create a Faded Example from a Lesson</h2>
+
+  <p>The following exercise should be done in groups of 2-3.</p>
+
+  <ol>
+    <li>Pick a block of code from an existing Software or Data Carpentry lesson,
+or from another lesson you have taught recently.</li>
+    <li>Replace 2-3 pieces of the code with a blank.</li>
+    <li>Write a question to test the student’s ability to correctly fill in that blank.</li>
+    <li>Paste your faded example in the Etherpad.</li>
+  </ol>
+</blockquote>
+
+<h2 id="parsons-problems">Parsons Problems</h2>
+
+<p>Another kind of exercise designed to reduce cognitive load is a <em>Parsons Problem</em>,
+in which learners are presented with the jumbled parts of a solution
+and asked to put them in order.
+When learning a language,
+for example,
+students could be asked to order a set of words
+to create a grammatically correct response to a question.
+Similarly,
+our learners can be given the lines of code needed to solve a problem
+and asked to arrange them.
+Learners can then be told that they have all the lines they need save one,
+and so on.</p>
+
+<p>Here is a really nice online Parsons Problem interactive tool. <a href="http://runestoneinteractive.org/LearningAtScale/parsons.html">Try it out!</a></p>
+
+<blockquote class="challenge">
+  <h2 id="parsons-problems-1">Parsons Problems</h2>
+
+  <p>Write 5 or 6 lines of code that does something useful,
+jumble them,
+then add one more line that looks plausible but isn’t needed to solve the problem.
+How well can your partner tell which line is unnecessary?</p>
+</blockquote>
+
+
+
+<blockquote class="keypoints">
+  <h2>Key Points</h2>
+  <ul>
+    
+    <li><p>Self-directed (inquiry-based) learning is less effective than guided instruction.</p>
+</li>
+    
+    <li><p>Cognitive load theory predicts that focusing on one aspect at a time improves learning.</p>
+</li>
+    
+    <li><p>Use faded examples to focus attention when learning.</p>
+</li>
+    
+  </ul>
+</blockquote>
+
+
+<div class="row">
+  <div class="col-md-1">
+    <h3>
+      
+      <a href="../10-performance/"><span class="glyphicon glyphicon-menu-left" aria-hidden="true"></span><span class="sr-only">previous episode</span></a>
+      
+    </h3>
+  </div>
+  <div class="col-md-10">
+    
+  </div>
+  <div class="col-md-1">
+    <h3>
+      
+      <a href="../12-summarize/"><span class="glyphicon glyphicon-menu-right" aria-hidden="true"></span><span class="sr-only">next episode</span></a>
+      
+    </h3>
+  </div>
+</div>
+
+
+      
+      
+<footer>
+  <div class="row">
+    <div class="col-md-6" align="left">
+      <h4>
+	Copyright &copy; 2016
+	
+	<a href="https://software-carpentry.org">Software Carpentry Foundation</a>
+	
+      </h4>
+    </div>
+    <div class="col-md-6" align="right">
+      <h4>
+	<a href="/">Source</a>
+	/
+	<a href="/blob/gh-pages/CONTRIBUTING.md">Contributing</a>
+	/
+	<a href="/blob/gh-pages/CITATION">Cite</a>
+	/
+	<a href="mailto:lessons@software-carpentry.org">Contact</a>
+      </h4>
+    </div>
+  </div>
+</footer>
+
+      
+    </div>
+    
+<script src="../assets/js/jquery.min.js"></script>
+<script src="../assets/js/bootstrap.min.js"></script>
+<script src="../assets/js/lesson.js"></script>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+  ga('create', 'UA-37305346-2', 'auto');
+  ga('send', 'pageview');
+</script>
+
+  </body>
+</html>

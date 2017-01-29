@@ -1,0 +1,879 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta http-equiv="last-modified" content="2017-01-30 00:04:23 +0100">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- meta "search-domain" used for google site search function google_search() -->
+    <meta name="search-domain" value="/swc-releases/1999.12/instructor-training">
+    <link rel="stylesheet" type="text/css" href="../assets/css/bootstrap.css" />
+    <link rel="stylesheet" type="text/css" href="../assets/css/bootstrap-theme.css" />
+    <link rel="stylesheet" type="text/css" href="../assets/css/lesson.css" />
+    
+    <link rel="shortcut icon" type="image/x-icon" href="/favicon-swc.ico" />
+    
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+	<script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+	<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+	<![endif]-->
+    <title>Instructor Training: Instructor Notes</title>
+  </head>
+  <body>
+    <div class="container">
+      
+<nav class="navbar navbar-default">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+
+      
+      
+      <a href="https://software-carpentry.org" class="pull-left">
+        <img class="navbar-logo" src="../assets/img/swc-icon-blue.svg" alt="Software Carpentry logo" />
+      </a>
+      
+
+      
+      <a class="navbar-brand" href="../">Home</a>
+
+    </div>
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+
+	
+        <li><a href="../conduct/">Code of Conduct</a></li>
+
+	
+        
+        <li><a href="../setup/">Setup</a></li>
+        <li><a href="../reference/">Reference</a></li>
+        <li class="dropdown">
+          <a href="../" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Episodes <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            
+            <li><a href="../01-welcome/">Welcome</a></li>
+            
+            <li><a href="../02-novice/">Novices and Formative Assessment</a></li>
+            
+            <li><a href="../03-terms/">Terms</a></li>
+            
+            <li><a href="../04-coffee/">Morning Coffee</a></li>
+            
+            <li><a href="../05-performance/">Teaching as a Performance Art</a></li>
+            
+            <li><a href="../06-summarize/">Morning Wrap-Up</a></li>
+            
+            <li><a href="../07-lunch/">Lunch</a></li>
+            
+            <li><a href="../08-memory/">Expertise and Memory</a></li>
+            
+            <li><a href="../09-coffee/">Afternoon Coffee</a></li>
+            
+            <li><a href="../10-performance/">Performance Revised</a></li>
+            
+            <li><a href="../11-load/">Cognitive Load</a></li>
+            
+            <li><a href="../12-summarize/">Afternoon Wrap-Up</a></li>
+            
+            <li><a href="../13-live/">Live Coding</a></li>
+            
+            <li><a href="../14-coffee/">Morning Coffee</a></li>
+            
+            <li><a href="../15-practices/">Carpentry Teaching Practices</a></li>
+            
+            <li><a href="../16-motivation/">Motivation and Demotivation</a></li>
+            
+            <li><a href="../17-summarize/">Morning Wrap-Up</a></li>
+            
+            <li><a href="../18-lunch/">Lunch</a></li>
+            
+            <li><a href="../19-lessons/">Lessons and Objectives</a></li>
+            
+            <li><a href="../20-coffee/">Afternoon Coffee</a></li>
+            
+            <li><a href="../21-carpentries/">The Carpentries</a></li>
+            
+            <li><a href="../22-summarize/">Afternoon Wrap-Up</a></li>
+            
+          </ul>
+        </li>
+	
+
+	
+	
+        <li class="dropdown">
+          <a href="../" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Extras <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            
+            <li><a href="../about/">About</a></li>
+            
+            <li><a href="../checkout/">Checkout Procedure</a></li>
+            
+            <li><a href="../discuss/">Discussion</a></li>
+            
+            <li><a href="../exercises/">Extra Exercises</a></li>
+            
+            <li><a href="../figures/">Figures</a></li>
+            
+            <li><a href="../guide/">Instructor Notes</a></li>
+            
+            <li><a href="../testimonials/">Testimonials</a></li>
+            
+          </ul>
+        </li>
+	
+
+	
+        <li><a href="../license/">License</a></li>
+      </ul>
+      <form class="navbar-form navbar-right" role="search" id="search" onsubmit="google_search(); return false;">
+        <div class="form-group">
+          <input type="text" id="google-search" placeholder="Search..." aria-label="Google site search">
+        </div>
+      </form>
+    </div>
+  </div>
+</nav>
+
+
+<h1 class="maintitle"><a href="../">Instructor Training</a>: Instructor Notes</h1>
+
+<h2 id="checklists">Checklists</h2>
+
+<p>See Atul Gawande’s 2007 article “<a href="http://www.newyorker.com/magazine/2007/12/10/the-checklist">The Checklist</a>”
+for a look at how using checklists can save lives (and make many other things better too).</p>
+
+<blockquote class="checklist">
+  <h2 id="scheduling-the-event">Scheduling the Event</h2>
+
+  <ol>
+    <li>Decide if it will be in person, online for one site, or online for several.</li>
+    <li>Talk through expectations with the host(s).
+      <ul>
+        <li>If it is in person, make sure the host knows they’re covering travel costs for trainers.</li>
+        <li>Determine who is allowed to attend.
+          <ul>
+            <li>We strongly prefer trainees to have attended workshops (as learners or helpers).</li>
+            <li>Other criteria may be negotiated by the Executive Directors as part of partnership agreements.</li>
+          </ul>
+        </li>
+      </ul>
+    </li>
+    <li>Arrange trainers.</li>
+    <li>Arrange space.
+      <ul>
+        <li>Make sure there are breakout rooms for video recording.</li>
+      </ul>
+    </li>
+    <li>Choose dates.
+      <ul>
+        <li>If it is in person, book travel.</li>
+      </ul>
+    </li>
+    <li>Get names and email addresses of attendees from host(s).
+      <ul>
+        <li>Register those people in AMY.</li>
+      </ul>
+    </li>
+  </ol>
+</blockquote>
+
+<blockquote class="checklist">
+  <h2 id="setting-up">Setting Up</h2>
+
+  <ol>
+    <li>Set up a one-page website for the workshop using <a href="https://github.com/swcarpentry/training-template">https://github.com/swcarpentry/training-template</a> as a starting point.</li>
+    <li>Send the URL to the admins.</li>
+    <li>Check whether any attendees have special needs.</li>
+    <li>If it is online:
+      <ul>
+        <li>Test the video conference link.</li>
+      </ul>
+    </li>
+    <li>Make sure attendees will all have network access.</li>
+    <li>Create an Etherpad.</li>
+    <li>Email attendees <a href="../files/messages/welcome.txt">a welcome message</a> that includes:
+      <ul>
+        <li>a link to the workshop home page</li>
+        <li>background readings</li>
+        <li>a description of any pre-requisite tasks</li>
+      </ul>
+    </li>
+  </ol>
+</blockquote>
+
+<blockquote class="checklist">
+  <h2 id="during-the-event">During the Event</h2>
+
+  <ol>
+    <li>Remind everyone of the code of conduct.</li>
+    <li>Collect attendance.</li>
+    <li>Distribute sticky notes.</li>
+    <li>Collect participants’ GitHub IDs (if they are interested in teaching Software Carpentry).</li>
+    <li>Go through <a href="../files/messages/checkout.txt">the checkout procedure</a> point by point.</li>
+    <li>Explain how we <a href="../files/messages/format.txt">format lesson submissions</a>.</li>
+  </ol>
+</blockquote>
+
+<blockquote class="checklist">
+  <h2 id="after-the-event">After the Event</h2>
+
+  <ol>
+    <li>Update AMY.
+      <ol>
+        <li>Go to More… Trainees.</li>
+        <li>Select the training event in the filter on the left of the page.</li>
+        <li>Tick off all the people who participated (there’s a “select all” tick box by the “Name” column header).</li>
+        <li>Click “Add” at the bottom of the page.
+If anyone didn’t show, or in your opinion didn’t participate, do not give them credit for this training.</li>
+      </ol>
+    </li>
+    <li>Administer the <a href="https://www.surveymonkey.com/r/post-instructor-training">post-training survey</a>.</li>
+    <li>Email attendees about <a href="../files/messages/checkout.txt">the checkout process</a>.</li>
+    <li>Debrief with the head of instructor training.</li>
+    <li>Oversee final demonstrations and mark them as complete in AMY.
+      <ol>
+        <li>Go to More… Trainees.</li>
+        <li>Enter the person’s name in the filte ron the left of the page and submit.</li>
+        <li>Click the gray <code class="highlighter-rouge">[+]</code> beside their name.</li>
+        <li>Fill in the details of the demo they did and who passed it.</li>
+        <li>Submit.</li>
+      </ol>
+    </li>
+  </ol>
+</blockquote>
+
+<blockquote class="checklist">
+  <h2 id="between-instructor-training-sessions">Between Instructor Training Sessions</h2>
+
+  <ol>
+    <li>Sign up to lead group lesson discussions.</li>
+    <li>Monitor <code class="highlighter-rouge">lessons@software-carpentry.org</code> for notices from trainees that they have submitted PRs
+and add those PRs to their progress on AMY.
+      <ol>
+        <li>Go to More… Trainees.</li>
+        <li>Enter the person’s name in the filter on the left of the page and submit.</li>
+        <li>Click the gray <code class="highlighter-rouge">[+]</code> beside their name.</li>
+        <li>Select the type of homework (SWC or DC) and enter the URL of their PR or issue.</li>
+        <li>Submit.</li>
+      </ol>
+    </li>
+  </ol>
+</blockquote>
+
+<blockquote class="checklist">
+  <h2 id="after-trainees-complete">After Trainees Complete</h2>
+
+  <ol>
+    <li>Send new instructors <a href="../files/messages/completion.txt">the completion message</a>.</li>
+    <li>Badge instructors in <a href="https://amy.software-carpentry.org/workshops/">AMY</a>.
+      <ol>
+        <li>Go to More… Trainees.</li>
+        <li>Enter the person’s name in the filter on the left of the page and submit.</li>
+        <li>Select the appropriate badge on the right.</li>
+        <li>Fill in the details.</li>
+        <li>Submit.</li>
+      </ol>
+    </li>
+    <li>Create and send <a href="https://github.com/swcarpentry/certification">PDF certificates</a>.</li>
+  </ol>
+</blockquote>
+
+<p>Note that trainers do not examine their own trainees:
+having them examine each other’s helps balance load
+and maintain consistency of curriculum and standards.</p>
+
+<h2 id="messages">Messages</h2>
+
+<p>You may use the following message templates to communicate with trainees:</p>
+
+<ul>
+  <li><a href="../files/messages/welcome.txt">Welcome participants before the workshop</a></li>
+  <li><a href="../files/messages/checkout.txt">Description of checkout procedure sent immediately after the workshop</a></li>
+  <li><a href="../files/messages/after-pr.txt">Next steps after receiving pull request</a></li>
+  <li><a href="../files/messages/passive-discussion.txt">Request to do another discussion session when participant was passive</a></li>
+  <li><a href="../files/messages/completion.txt">Confirm certification and describe next steps</a></li>
+  <li><a href="../files/messages/expiry.txt">Notify participants that they have not completed within the specified time</a></li>
+</ul>
+
+<h2 id="introduction">Introduction</h2>
+
+<p>To begin your class, the instructors should give a brief introduction
+that will convey their capacity to teach the material,
+accessibility/approachability, desire for student success, and
+enthusiasm.  Tailor your introduction to the students’ skill level so
+that you convey competence (without seeming too advanced) and
+demonstrate that you can relate to the students.  Throughout the
+workshop, continually demonstrate that you are interested in student
+progress and that you are enthusiastic about the topics.</p>
+
+<p>Students should also introduce themselves (preferably verbally).  At
+the very least, everyone should add their name to the Etherpad, but
+its also good for everyone at a given site to know who all is in the
+group.  Note: this can be done while setting up before the start of
+the class.</p>
+
+<h2 id="exercises">Exercises</h2>
+
+<ul>
+  <li>
+    <p>Have students write answers to the initial MCQ in the Etherpad
+or create a copy of this <a href="http://goo.gl/forms/EHXfBSDmvqBLLVzj1">Google Form Questionnaire</a>.
+Briefly summarize the answers.</p>
+  </li>
+  <li>
+    <p>Learners do think-pair-share for cognitive maps and multiple-choice questions.</p>
+  </li>
+  <li>
+    <p>In the two-day versions,
+have learners read the operations guide as their overnight homework
+and do their demotivational story just before lunch on day 2:
+it means day 2 starts with <em>their</em> questions (which wakes them up),
+and the demotivational story is a good lead-in to lunchtime discussion.</p>
+  </li>
+  <li>
+    <p>Don’t have them complete the Teaching Perspectives Inventory
+or read through the pre- or post-assessment questionnaires in class:
+it kills momentum.</p>
+  </li>
+  <li>Have them work in pairs for the live coding exercise rather than threes,
+and don’t bother recording:
+the camera can’t pick up both the speaker’s body language and what’s on the screen.
+Afterwards, have learners put answers to the following questions in the Etherpad:
+    <ul>
+      <li>What felt different about live coding (vs. standing up and lecturing)? What was harder/easier?</li>
+      <li>Did you make any mistakes? If so, how did you handle them?</li>
+      <li>Did you talk and type at the same time, or alternate?</li>
+      <li>How often did you point at the screen? How often did you highlight with the mouse?</li>
+      <li>What will you try to do differently next time?</li>
+    </ul>
+  </li>
+  <li>When teaching faded examples:
+    <ol>
+      <li>Divide trainees into groups of 4-5</li>
+      <li>Put the faded example (Python code) from the curriculum into the Etherpad.</li>
+      <li>Define the audience for these examples.
+For example, are these beginners who only know some basics programming concepts?
+Or are these learners with some experience in programming but not in Python?
+You need to provide this information so that the trainees can decide what intrinsic knowledge these audiences have.</li>
+      <li>Talk the trainees through some examples of intrinsic, germane, and extraneous knowledge
+for the Python faded example for the audiences you defined. For example:
+        <ul>
+          <li>Intrinsic load: ability to read and write; understanding what variable is</li>
+          <li>Germane load: learning how to loop through a collection in Python</li>
+          <li>Extraneous load: need to know that Python requires indentation</li>
+        </ul>
+      </li>
+      <li>Ask the trainees to discuss and identify in groups what different loads occur, and write them into the Etherpad.</li>
+    </ol>
+
+    <p>If there are people among the trainees who don’t program at all,
+make sure that they are in separate groups and ask to the groups to work with that person as a learner to help identify different loads.
+Another option is to have a faded example that is not programming specific. But that may be difficult to achieve.</p>
+  </li>
+</ul>
+
+<h2 id="video-recorded-lessons">Video Recorded Lessons</h2>
+
+<p>One of the key elements of this training course is recording trainees
+and having them, and their peers, critique those recordings.
+We were introduced to this practice by UBC’s Warren Code,
+and it has evolved to the following:</p>
+
+<ol>
+  <li>
+    <p>On day 1, show trainees a short clip (3-4 minutes) of someone teaching a lesson
+and have them give feedback as a group.
+This feedback is organized on two axes:
+positive versus negative,
+and content versus presentation.
+The first axis is explained as “things to be repeated and emphasized” versus “things to be improved”,
+while the second is explained by contrasting people who have good ideas,
+but can’t communicate them (all content, no presentation)
+with people who speak well, but don’t actually have anything to say.</p>
+  </li>
+  <li>
+    <p>Trainees are then asked to work in groups of three.
+Each person rotates through the roles of instructor, audience, and videographer.
+As the instructor,
+they have two minutes to explain one key idea from their research (or other work)
+as if they were talking to a class of interested high school students.
+The person pretending to be the audience is there to be attentive,
+while the videographer records the session using a cellphone or similar device.</p>
+  </li>
+  <li>
+    <p>After everyone has taught,
+the trio sits together and watches all three videos in succession,
+writing out feedback on the same 2x2 grid introduced above.
+Once all the videos have been reviewed,
+the group rejoins the class;
+each person puts all the feedback on themselves into the Etherpad.</p>
+  </li>
+</ol>
+
+<p>In order for this exercise to work well:</p>
+
+<ul>
+  <li>
+    <p>Groups must be physically separated to reduce audio cross-talk between their recordings.
+In practice,
+this means 2-3 groups in a normal-sized classroom,
+with the rest using nearby breakout spaces,
+coffee lounges,
+offices,
+or (on one occasion) a janitor’s storage closet.</p>
+  </li>
+  <li>
+    <p>Do all three recordings before reviewing any of them,
+because otherwise the person to go last is short-changed on time.</p>
+  </li>
+  <li>
+    <p>People must give feedback on themselves,
+as well as giving feedback on each other,
+so that they can calibrate their impressions of their own teaching
+according to the impressions of other people.
+(We find that most people are harder on themselves than others are,
+and it’s important for them to realize this.)</p>
+  </li>
+  <li>
+    <p>At the end of day 1,
+ask trainees to review the lesson episode
+you will use for the live coding demonstration at the start of day 2.</p>
+  </li>
+  <li>
+    <p>Try to make at least one mistake during the demonstration of live coding
+so that trainees can see you talk through diagnosis and recovery,
+and draw attention afterward to the fact that you did this.</p>
+  </li>
+</ul>
+
+<p>The announcement of this exercise is often greeted with groans and apprehension,
+since few people enjoy seeing or hearing themselves.
+However,
+it is consistently rated as one of the most valuable parts of the class,
+and also serves as an ice breaker:
+we want pairs of instructors at actual workshops to give one another feedback,
+and that’s much easier to do once they’ve had some practice
+and have a rubric to follow.</p>
+
+<h2 id="live-coding-demo-videos">Live Coding Demo Videos</h2>
+
+<p><strong><a href="https://youtu.be/bXxBeNkKmJE">Part 1</a>: how not to do it</strong></p>
+
+<ul>
+  <li>Instructor ignores a red sticky clearly visible on a learner’s laptop.</li>
+  <li>Instructor is sitting, mostly looking at the laptop screen.</li>
+  <li>Instructor is typing commands without saying them out loud.</li>
+  <li>Instructor uses fancy bash prompt.</li>
+  <li>Instructor uses small font in not full-screen terminal window with black background.</li>
+  <li>The terminal window bottom is partially blocked by the learner’s heads for those sitting in the back.</li>
+  <li>Instructor receives a a pop-up notification in the middle of the session.</li>
+  <li>Instructor makes a mistake (a typo) but simply fixes it without pointing it out, and redoes the command.</li>
+</ul>
+
+<p><strong><a href="https://youtu.be/SkPmwe_WjeY">Part 2</a>: how to do it right</strong></p>
+
+<ul>
+  <li>Instructor checks if the learner with the red sticky on her laptop still needs attention.</li>
+  <li>Instructor is standing while instructing, making eye-contact with participants.</li>
+  <li>Instructor is saying the commands out loud while typing them.</li>
+  <li>Instructor moves to the screen to point out details of commands or results.</li>
+  <li>Instructor simply uses ‘$ ‘ as bash prompt.</li>
+  <li>Instructor uses big font in wide-screen terminal window with white background.</li>
+  <li>The terminal window bottom is above the learner’s heads for those sitting in the back.</li>
+  <li>Instructor makes mistake (a typo) and uses the occasion to illustrate how to interpret error-messages.</li>
+</ul>
+
+<h2 id="motivation-and-demotivation">Motivation and Demotivation</h2>
+
+<ul>
+  <li>
+    <p>In the exercise on brainstorming motivational challenges,
+review the comments in the Etherpad.
+Rather than read all out loud, highlight the common themes
+(i.e. establish value, positive expectations, promote self efficiency)
+or things that stand out our that you can relate to.
+Note: this exercise can be done before or going through the above list.</p>
+  </li>
+  <li>
+    <p>In the exercise on brainstorming demotivational experiences,
+review the comments in the Etherpad.
+Rather than read all out loud,
+highlight a few of the things that could have been done differently.
+This will give everyone some confidence in how to handle these situations in the future.</p>
+  </li>
+</ul>
+
+<h2 id="the-big-picture">The Big Picture</h2>
+
+<p>In 2014,
+<a href="http://www.theguardian.com/commentisfree/2014/jun/16/saving-the-world-promise-not-fear-nature-environmentalism">George Monbiot wrote</a>:</p>
+
+<blockquote class="quotation">
+  <p>If we had set out to alienate and antagonize the people we’ve been trying to reach,
+we could scarcely have done it better.
+This is how I feel,
+looking back on the past few decades of environmental campaigning, including my own…</p>
+
+  <p>Experimental work suggests that when fears are whipped up,
+they trigger an instinctive survival response.
+You suppress your concern for other people and focus on your own interests…
+Terrify the living daylights out of people, and they will protect themselves at the expense of others…</p>
+</blockquote>
+
+<p>A lot of advocates for open science and reproducible research make the same mistake.
+They frighten people with talk of papers that have been retracted
+when they should talk about all the new science people could do
+if they weren’t wasting hours trying to figure out
+how they created figure number three in the first place.</p>
+
+<p>We have found that we have more impact when we
+<em>emphasize how much more researchers can do when they are computationally competent</em>.
+We have also found it’s importance for us to
+<em>emphasize that what we teach and how we teach it is based on the best available evidence</em>.
+We use live coding instead of slides because research shows that people learn more from doing than watching.
+Similarly,
+the tools we teach are ones that our instructors—who are active researchers themselves—use daily.</p>
+
+<p>One final point to make in instructor training workshops is that
+<em>our greatest impact may be what we teach our instructors about teaching and collaborating</em>.
+As a species,
+we know as much about education as we do about public health,
+but since most university lecturers are self-taught teachers,
+they are completely unaware of this body of knowledge.
+At the same time,
+the massive, open collaboration that has made Wikipedia and open source software successful
+has never taken hold in teaching.
+Most university lecturers are still the sole creators and consumers of their lessons,
+which wastes time and impedes the spread of good ideas.
+Changing <em>that</em> could have more impact in the long run
+than anything to do with for loops and pull requests.</p>
+
+<h2 id="you-are-not-your-learners">You Are Not Your Learners</h2>
+
+<p>Discussion of the practical implications of learning concepts
+brings us to our next big idea:
+people learn best when they care about the topic <em>and</em> believe they can master it.
+Neither fact is particularly surprising,
+but their practical implications have a lot of impact on what we teach,
+and the order in which we teach it.</p>
+
+<p>First,
+most scientists don’t actually want to program.
+They want to do scientific research,
+and programming is just a tax they have to pay along the way.
+They don’t care how hash tables work,
+or even that hash tables exist;
+they just want to know how to process data faster.
+We therefore have to make sure that everything we teach is useful right away,
+and conversely that we don’t teach anything just because it’s “fundamental”.</p>
+
+<p>Second,
+believing that something will be hard to learn is a self-fulfilling prophecy.
+This is why it’s important not to say that something is easy:
+if someone who has been told that tries it,
+and it doesn’t work,
+they are more likely to become discouraged.</p>
+
+<p>It’s also why installing and configuring software is
+a much bigger problem for us than experienced programmers like to acknowledge.
+It isn’t just the time we lose at the start of boot camps
+as we try to get a Unix shell working on Windows,
+or set up a version control client on some idiosyncratic Linux distribution.
+It isn’t even the unfairness of asking students to debug things
+that depend on precisely the knowledge they have come to learn,
+but which they don’t yet have.
+The real problem is that every such failure reinforces the belief that computing is hard,
+and that they’d have a better chance of making next Thursday’s conference submission deadline
+if they kept doing things the way they always have.
+For these reasons,
+we have adopted a “teach most immediately useful first” approach
+described in <a href="../19-motivation/">this episode</a>.</p>
+
+<blockquote class="callout">
+  <h2 id="software-carpentry-is-not-computer-science">Software Carpentry Is Not Computer Science</h2>
+
+  <p>Many of the foundational concepts of computer science,
+such as computability,
+inhabit the lower-right corner of the grid described above.
+This does <em>not</em> mean that they aren’t important,
+or aren’t worth learning,
+but if our aim is to convince people that they can learn this stuff,
+and that doing so will help them do more science faster,
+they are less compelling than things like automating repetitive tasks.</p>
+</blockquote>
+
+<h2 id="logistics">Logistics</h2>
+
+<p>This course has been taught as a multi-week online class,
+as a two-day in-person class,
+and as a two-day class in which the learners are in co-located groups
+and the instructor participates remotely.</p>
+
+<h3 id="two-day-in-person-currently-used">Two-Day In-Person (Currently used)</h3>
+
+<p>This was the second method we tried.
+The biggest change was the introduction of recorded teaching exercises.</p>
+
+<ul>
+  <li>
+    <p>Several times during the training,
+participants are divided into groups of three
+and asked to teach a short lesson (typically 2-3 minutes long).
+In turn,
+one person is the teacher, one the audience, and one the videographer,
+who records the teacher using a handheld device such as a phone.
+Group members then rotate roles:
+the teacher becomes the listener, the listener records, and the videographer teaches.
+Once all three have finished teaching,
+the group reviews all three videos,
+and everyone gives feedback on everyone (including themselves).
+This feedback then goes into the Etherpad for discussion.</p>
+  </li>
+  <li>
+    <p>It’s important to record all three videos and then watch all three:
+if the cycle is teach-review-teach-review,
+the last person to teach runs out of time.
+Doing all the reviewing after all the teaching
+also helps put a bit of distance between the teaching and the reviewing,
+which makes the exercise slightly less excruciating.</p>
+  </li>
+  <li>
+    <p>This exercise only works if there are breakout rooms available:
+if everyone is trying to record in the same room,
+the audio cross-talk makes the recordings unintelligible.</p>
+  </li>
+  <li>
+    <p>We use Etherpad for in-person training,
+both for note-taking and for posting exercise solutions and feedback on recorded lessons
+Questions and discussion are done aloud.</p>
+  </li>
+</ul>
+
+<h3 id="two-day-online-with-groups-currently-used">Two-Day Online With Groups (Currently used)</h3>
+
+<ul>
+  <li>
+    <p>We use Google Hangouts and Etherpad as in the multi-week version.
+Each group of learners is together in a room using one camera and microphone,
+rather than each being on the call separately.
+We have found that having good audio matters more than having good video,
+and that the better the audio,
+the more learners can communicate with the instructor and other rooms by voice
+rather than by using the Etherpad chat.</p>
+  </li>
+  <li>
+    <p>We do the video lecture exercise as in the two-day in-person training.</p>
+  </li>
+</ul>
+
+<h3 id="multi-week-online-retired">Multi-Week Online (Retired)</h3>
+
+<p>This was the first method we tried.</p>
+
+<ul>
+  <li>
+    <p>We meet every week or every second week for an hour using Google Hangout or BlueJeans.
+Each meeting is held twice (or even three times) to accommodate learners’ time zones
+and because video conferencing systems can’t handle 60+ people at once.
+Each meeting also uses an Etherpad for shared note-taking,
+and more importantly for asking and answering questions:
+having several dozen people try to talk on a call hasn’t worked,
+so in most sessions,
+the instructor does the talking
+and learners respond through the Etherpad chat.</p>
+  </li>
+  <li>
+    <p>Learners post homework online, then comment on each other’s work.</p>
+    <ul>
+      <li>We used a WordPress blog for the first ten rounds of training.
+People found writing and commenting on posts straightforward,
+but setting up dozens of logins was tedious.</li>
+      <li>We tried a GitHub-backed blog in the Winter 2015 class.
+It didn’t work nearly as well:
+a third of the participants found it extremely frustrating,
+and post-publication commentary was awkward.</li>
+      <li>We tried Piazza in the Fall 2015 class.
+It was better than GitHub,
+but still not as good as a simple WordPress blog.
+In particular,
+it was hard to find things once there were more than a dozen homework categories.</li>
+    </ul>
+  </li>
+</ul>
+
+<h2 id="demo-sessions">Demo Sessions</h2>
+
+<p>Checklist for instructor trainers hosting a live-coding demo session as part of a trainee’s checkout procedure.</p>
+
+<h3 id="before-the-demo">Before the Demo</h3>
+
+<ul>
+  <li>Sign up to lead the demo at <a href="http://pad.software-carpentry.org/teaching-demos">http://pad.software-carpentry.org/teaching-demos</a>.</li>
+  <li>For each trainee, pick a suitable starting point in the lesson that they have chosen.
+Do not start at the very beginning of the first episode,
+and look for an episode that dives into live coding quickly without first explaining a lot.
+(Example starting points are listed below.).
+Do not have them start in the middle of an episode.
+Note that some lessons (e.g., the Software Carpentry R lesson using inflammation data)
+have supplementary episodes.
+Do not pick from those.</li>
+  <li>If a trainee wants to demo for both SWC and DC,
+allocate two slots for them,
+but set up schedule that does <strong>not</strong> have them teaching twice in a row.</li>
+</ul>
+
+<h3 id="shortly-before-the-demo">Shortly Before the Demo</h3>
+
+<ul>
+  <li>Prepare the Google hangout (or other online meeting place)
+and paste the link in the etherpad.</li>
+</ul>
+
+<h3 id="during-the-demo">During the Demo</h3>
+
+<ul>
+  <li>Once everyone is in the call (audio and video working),
+remind them of the Code of Conduct,
+explain the procedure for the demo session,
+and remind them that trainees have to be able to teach from <em>any</em> episode from their chosen lesson.
+Ask whether anyone has only prepared for 5 minutes from <em>one</em> episode instead of the entire lesson,
+and if so, suggest strongly they reschedule.</li>
+  <li>Ask those not presenting to mute their microphone,
+and tell them they are to give feedback in the etherpad
+using the same positive-vs-negative and content-vs-presentation rubric used in training.</li>
+  <li>Hand out the assignment to the first trainee,
+give them a bit of time to set up the demo
+(they may have to import some packages, load some data, move to a certain folder etc).</li>
+  <li>Ask them to share their screen.</li>
+  <li>Once they are ready, give them a 3-2-1 countdown to start.</li>
+  <li>Use a countdown timer which makes a noise once their 5 minutes are up (e.g., your phone),
+or just say “bong” really loudly at the end of their tie.</li>
+  <li>After the five minute timer, allow them to finish their sentence and tell them time’s up.</li>
+  <li>Use a <a href="../files/teaching-demo-rubric.md">rubric</a> for notes.</li>
+  <li>After the trainee is finished,
+first ask how they themselves thought it went,
+then give constructive feedback based on your notes.</li>
+  <li>Do <em>not</em> tell the trainee whether they passed or failed:
+send that by email after the session is over.</li>
+  <li>Repeat for the other trainees.</li>
+  <li>At the end of the season, ask for general questions.</li>
+  <li>Tell trainees that once disconnected,
+you will add your notes to the session’s etherpad and leave them there for a while.</li>
+  <li>Disconnect and add your notes to the session’s etherpad.</li>
+</ul>
+
+<h3 id="after-the-demo">After the Demo</h3>
+
+<ul>
+  <li>Sign up for your next session in <a href="http://pad.software-carpentry.org/teaching-demos">http://pad.software-carpentry.org/teaching-demos</a>.</li>
+  <li>Add pass/fail information for the trainees in AMY.</li>
+</ul>
+
+<h3 id="example-starting-points-for-demos">Example Starting Points for Demos</h3>
+
+<ul>
+  <li>SWC Unix Shell
+    <ul>
+      <li><a href="https://swcarpentry.github.io/shell-novice/03-create/">03-create</a></li>
+      <li><a href="https://swcarpentry.github.io/shell-novice/05-loop/">05-loop</a></li>
+      <li><a href="https://swcarpentry.github.io/shell-novice/06-script/">06-script</a></li>
+    </ul>
+  </li>
+  <li>SWC, python gapminder
+    <ul>
+      <li><a href="https://swcarpentry.github.io/python-novice-gapminder/06-libraries/">06-libraries</a></li>
+    </ul>
+  </li>
+  <li>SWC, python novice inflammation
+    <ul>
+      <li><a href="https://swcarpentry.github.io/python-novice-inflammation/03-lists/">03-lists</a></li>
+      <li><a href="https://swcarpentry.github.io/python-novice-inflammation/06-func/">06-func</a></li>
+    </ul>
+  </li>
+  <li>SWC, Automation and Make
+    <ul>
+      <li><a href="https://swcarpentry.github.io/make-novice/03-variables/">03-variables</a></li>
+    </ul>
+  </li>
+  <li>SWC, SQL
+    <ul>
+      <li><a href="https://swcarpentry.github.io/sql-novice-survey/02-sort-dup/">02-sort-dup</a></li>
+    </ul>
+  </li>
+  <li>SWC, Matlab
+    <ul>
+      <li><a href="https://swcarpentry.github.io/matlab-novice-inflammation/03-loops/">03-loops</a></li>
+    </ul>
+  </li>
+  <li>SWC, R for Reproducible Scientific Analysis
+    <ul>
+      <li><a href="https://swcarpentry.github.io/r-novice-gapminder/07-control-flow/">07-control-flow</a></li>
+    </ul>
+  </li>
+  <li>DC, python ecology
+    <ul>
+      <li><a href="http://datacarpentry.org/python-ecology-lesson/02-index-slice-subset">02-index-slice-subset</a></li>
+    </ul>
+  </li>
+  <li>DC R ecology
+    <ul>
+      <li><a href="http://datacarpentry.org/R-ecology-lesson/04-dplyr.html">04-dplyr</a></li>
+      <li><a href="http://datacarpentry.org/R-ecology-lesson/05-visualization-ggplot2.html">05-visualization-ggplot2.html</a> (actually, <a href="http://datacarpentry.org/R-ecology-lesson/05-visualization-ggplot2.html#plotting-with-ggplot2">plotting-with-ggplot2</a>)</li>
+    </ul>
+  </li>
+</ul>
+
+
+
+      
+      
+<footer>
+  <div class="row">
+    <div class="col-md-6" align="left">
+      <h4>
+	Copyright &copy; 2016
+	
+	<a href="https://software-carpentry.org">Software Carpentry Foundation</a>
+	
+      </h4>
+    </div>
+    <div class="col-md-6" align="right">
+      <h4>
+	<a href="/">Source</a>
+	/
+	<a href="/blob/gh-pages/CONTRIBUTING.md">Contributing</a>
+	/
+	<a href="/blob/gh-pages/CITATION">Cite</a>
+	/
+	<a href="mailto:lessons@software-carpentry.org">Contact</a>
+      </h4>
+    </div>
+  </div>
+</footer>
+
+      
+    </div>
+    
+<script src="../assets/js/jquery.min.js"></script>
+<script src="../assets/js/bootstrap.min.js"></script>
+<script src="../assets/js/lesson.js"></script>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+  ga('create', 'UA-37305346-2', 'auto');
+  ga('send', 'pageview');
+</script>
+
+  </body>
+</html>

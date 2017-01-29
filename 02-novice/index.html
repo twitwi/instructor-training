@@ -1,0 +1,747 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta http-equiv="last-modified" content="2017-01-30 00:04:23 +0100">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- meta "search-domain" used for google site search function google_search() -->
+    <meta name="search-domain" value="/swc-releases/1999.12/instructor-training">
+    <link rel="stylesheet" type="text/css" href="../assets/css/bootstrap.css" />
+    <link rel="stylesheet" type="text/css" href="../assets/css/bootstrap-theme.css" />
+    <link rel="stylesheet" type="text/css" href="../assets/css/lesson.css" />
+    
+    <link rel="shortcut icon" type="image/x-icon" href="/favicon-swc.ico" />
+    
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+	<script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+	<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+	<![endif]-->
+    <title>Instructor Training: Novices and Formative Assessment</title>
+  </head>
+  <body>
+    <div class="container">
+      
+<nav class="navbar navbar-default">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+
+      
+      
+      <a href="https://software-carpentry.org" class="pull-left">
+        <img class="navbar-logo" src="../assets/img/swc-icon-blue.svg" alt="Software Carpentry logo" />
+      </a>
+      
+
+      
+      <a class="navbar-brand" href="../">Home</a>
+
+    </div>
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+
+	
+        <li><a href="../conduct/">Code of Conduct</a></li>
+
+	
+        
+        <li><a href="../setup/">Setup</a></li>
+        <li><a href="../reference/">Reference</a></li>
+        <li class="dropdown">
+          <a href="../" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Episodes <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            
+            <li><a href="../01-welcome/">Welcome</a></li>
+            
+            <li><a href="../02-novice/">Novices and Formative Assessment</a></li>
+            
+            <li><a href="../03-terms/">Terms</a></li>
+            
+            <li><a href="../04-coffee/">Morning Coffee</a></li>
+            
+            <li><a href="../05-performance/">Teaching as a Performance Art</a></li>
+            
+            <li><a href="../06-summarize/">Morning Wrap-Up</a></li>
+            
+            <li><a href="../07-lunch/">Lunch</a></li>
+            
+            <li><a href="../08-memory/">Expertise and Memory</a></li>
+            
+            <li><a href="../09-coffee/">Afternoon Coffee</a></li>
+            
+            <li><a href="../10-performance/">Performance Revised</a></li>
+            
+            <li><a href="../11-load/">Cognitive Load</a></li>
+            
+            <li><a href="../12-summarize/">Afternoon Wrap-Up</a></li>
+            
+            <li><a href="../13-live/">Live Coding</a></li>
+            
+            <li><a href="../14-coffee/">Morning Coffee</a></li>
+            
+            <li><a href="../15-practices/">Carpentry Teaching Practices</a></li>
+            
+            <li><a href="../16-motivation/">Motivation and Demotivation</a></li>
+            
+            <li><a href="../17-summarize/">Morning Wrap-Up</a></li>
+            
+            <li><a href="../18-lunch/">Lunch</a></li>
+            
+            <li><a href="../19-lessons/">Lessons and Objectives</a></li>
+            
+            <li><a href="../20-coffee/">Afternoon Coffee</a></li>
+            
+            <li><a href="../21-carpentries/">The Carpentries</a></li>
+            
+            <li><a href="../22-summarize/">Afternoon Wrap-Up</a></li>
+            
+          </ul>
+        </li>
+	
+
+	
+	
+        <li class="dropdown">
+          <a href="../" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Extras <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            
+            <li><a href="../about/">About</a></li>
+            
+            <li><a href="../checkout/">Checkout Procedure</a></li>
+            
+            <li><a href="../discuss/">Discussion</a></li>
+            
+            <li><a href="../exercises/">Extra Exercises</a></li>
+            
+            <li><a href="../figures/">Figures</a></li>
+            
+            <li><a href="../guide/">Instructor Notes</a></li>
+            
+            <li><a href="../testimonials/">Testimonials</a></li>
+            
+          </ul>
+        </li>
+	
+
+	
+        <li><a href="../license/">License</a></li>
+      </ul>
+      <form class="navbar-form navbar-right" role="search" id="search" onsubmit="google_search(); return false;">
+        <div class="form-group">
+          <input type="text" id="google-search" placeholder="Search..." aria-label="Google site search">
+        </div>
+      </form>
+    </div>
+  </div>
+</nav>
+
+
+<div class="row">
+  <div class="col-md-1">
+    <h3>
+      
+      <a href="../01-welcome/"><span class="glyphicon glyphicon-menu-left" aria-hidden="true"></span><span class="sr-only">previous episode</span></a>
+      
+    </h3>
+  </div>
+  <div class="col-md-10">
+    
+    <h3 class="maintitle"><a href="../">Instructor Training</a></h3>
+    <h1 class="maintitle">Novices and Formative Assessment</h1>
+    
+  </div>
+  <div class="col-md-1">
+    <h3>
+      
+      <a href="../03-terms/"><span class="glyphicon glyphicon-menu-right" aria-hidden="true"></span><span class="sr-only">next episode</span></a>
+      
+    </h3>
+  </div>
+</div>
+
+
+<blockquote class="objectives">
+  <h2>Overview</h2>
+
+  <div class="row">
+    <div class="col-md-3">
+      <strong>Teaching:</strong> 20 min
+      <br/>
+      <strong>Exercises:</strong> 40 min
+    </div>
+    <div class="col-md-9">
+      <strong>Questions</strong>
+      <ul>
+	
+	<li><p>How can we describe the difference in learning between a novice and competent practitioner?</p>
+</li>
+	
+      </ul>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-md-3">
+    </div>
+    <div class="col-md-9">
+      <strong>Objectives</strong>
+      <ul>
+	
+	<li><p>Present three faulty mental models drawn from their own experience.</p>
+</li>
+	
+	<li><p>Create a multiple choice question with plausible distractors and explain the diagnostic power of each distractor.</p>
+</li>
+	
+	<li><p>Identify whether a multiple-choice question is testing factual knowledge or a mental model.</p>
+</li>
+	
+      </ul>
+    </div>
+  </div>
+
+</blockquote>
+
+<p>We’ll now get started with our first round of learning some theory, how it
+relates to Software and Data Carpentry, and putting that theory into practice.</p>
+
+<h2 id="cognitive-development-and-mental-models">Cognitive Development and Mental Models</h2>
+
+<p>Effective learning is facilitated by the creation of a mental model of the domain,
+but what exactly do we mean by a mental model?
+One example is the ball-and-spring model of molecules that most of us encountered in high school chemistry.
+Atoms aren’t actually balls,
+and their bonds aren’t actually springs,
+but the model does a good job of helping people reason about chemical compounds and their reactions.</p>
+
+<blockquote class="discussion">
+  <h2 id="your-mental-models">Your Mental Models</h2>
+
+  <p>What is your primary research domain?  What is one mental model you use to frame
+and understand your work?</p>
+</blockquote>
+
+<p>One way to think about the difference between a novice and a “competent
+practitioner” is the existence of this big picture mental model.
+Our approach is based on the work of researchers like Benner,
+who applied the <a href="https://en.wikipedia.org/wiki/Dreyfus_model_of_skill_acquisition">Dreyfus model of skill acquisition</a>
+in her studies of
+<a href="http://www.amazon.com/Novice-Expert-Excellence-Clinical-Practice/dp/020100299X/">how nurses progress from novice to expert</a>.
+In simplified form,
+that model has three stages:</p>
+
+<ul>
+  <li>A <em>novice</em> is someone who doesn’t know what they don’t know, i.e.,
+they don’t yet know what the key ideas in the domain are or how they relate.
+More precisely,
+a novice has not yet built a mental model of the domain.
+They therefore reason by analogy and guesswork,
+borrowing bits and pieces of their mental models of other domains
+which seem superficially similar.
+One sign that someone is a novice is that their questions “aren’t even wrong”.</li>
+  <li>A <em>competent practitioner</em> is someone who has a mental model that’s good enough for everyday purposes.
+This model does not have to be completely accurate in order to be useful:
+for example,
+the average driver’s mental model of how a car works probably doesn’t include
+most of the complexities that a mechanical engineer would be concerned with.
+Competent practitioners can do normal tasks with normal effort under normal circumstances.</li>
+  <li>An <em>expert</em> is someone who can easily handle situations that are out of the ordinary,
+diagnose the causes of problems,
+and so on.
+We will discuss expertise in more detail in <a href="../08-memory/">a later lesson</a>.</li>
+</ul>
+
+<p>We assume that most learners coming to Software/Data Carpentry lessons are novices,
+and do not have a strong mental model of the concepts we are teaching.  Thus, our
+primary goal is <em>not</em>
+to teach the syntax of a particular programming language,
+but to teach people how to think about programming and data management
+(and about using computers in research more generally).</p>
+
+<p>One key insight from research on cognitive development is that
+novices, competent practitioners, and experts each need to be taught differently.
+In particular,
+presenting novices with a pile of facts early on is counter-productive,
+because they don’t yet have a model to fit those facts into.
+(In fact,
+presenting too many facts too soon can actually reinforce
+the incorrect mental model they’ve cobbled together.)
+Instead,
+our goal with novices is <em>to help them construct a working mental model</em>
+so that they have something to attach facts to.</p>
+
+<h3 id="why-we-go-slowly">Why We Go Slowly</h3>
+
+<p>The transition from novice to competent practitioner is no more
+and no less than
+the construction of correct (enough) categories,
+i.e.,
+the construction of a new mental model of this new intellectual domain.
+The goal of education for novices is, therefore,
+to help them form the right categories.
+Until they’ve done that,
+trying to impart “mere information” just confuses them.</p>
+
+<blockquote class="discussion">
+  <h2 id="manuals-vs-tutorials">Manuals vs. Tutorials</h2>
+
+  <p>What’s the difference between a manual and a tutorial?
+(Think in terms of the differences between novices and competent practitioners.)
+Can one document do a good job of being both?</p>
+</blockquote>
+
+<p>This is one of the reasons software documentation is so often frustrating.
+Reference material is opaque to someone who doesn’t know what they’re looking for,
+such as a novice who doesn’t yet have a mental map of the domain.
+On the other hand,
+tutorials meant to help people build such a map
+are too slow and too diffuse for people who already have one.
+It is possible to craft something that serves both communities,
+but it’s often simpler to address their needs separately.</p>
+
+<p>As an example of this idea’s practical implications,
+our <a href="http://swcarpentry.github.io/shell-novice/">lesson on the Unix shell</a> only introduces 12 commands,
+and we usually spend two and a half hours working through it.
+Twelve and a half minutes per command may seem glacially slow,
+but the lesson’s real purpose is to teach learners about paths,
+history,
+wildcards,
+pipes and filters,
+command-line arguments,
+redirection,
+and all the other big ideas that the shell depends on,
+and without which people cannot understand how to use commands
+(or how to read their manual pages).</p>
+
+<p>That model also includes things like:</p>
+
+<ul>
+  <li>Anything you repeat manually, you’ll eventually get wrong
+(so let the computer repeat things for you by using tab completion
+and the <code class="highlighter-rouge">history</code> command).</li>
+  <li>Lots of little tools, combined as needed, are more productive than
+a handful of “kitchen sink” programs.
+(This motivates the pipe-and-filter model.)</li>
+</ul>
+
+<p>These two examples illustrate something else as well.
+Learning consists of more than “just” building mental models
+and pouring information into them;
+creating linkages between concepts and facts is as least as important.
+Telling people that they shouldn’t repeat things,
+and that they should try to think in terms of little pieces loosely joined,
+both set the stage for discussing functions.
+Explicitly referring back to pipes and filters shell when introducing functions
+helps solidify both ideas.</p>
+
+<blockquote class="callout">
+  <h2 id="different-kinds-of-lessons">Different Kinds of Lessons</h2>
+
+  <p>The cognitive differences between novices and competent practitioners underpin
+the differences between two kinds of teaching materials.
+A tutorial’s purpose is to help newcomers to a field build a mental model;
+a manual’s role, on the other hand, is to help competent practitioners fill in the gaps in their knowledge.
+Tutorials frustrate competent practitioners because they move too slowly and say things that are obvious
+(though of course they are anything but to newcomers).
+Equally,
+manuals frustrate novices because they use jargon and <em>don’t</em> explain things.
+One of the reasons Unix and C became popular is that
+Kernighan et al’s books
+<em><a href="http://www.amazon.com/Programming-Language-Brian-W-Kernighan/dp/0131103628/">The C Programming Language</a></em>,
+and
+<em><a href="http://www.amazon.com/Unix-Programming-Environment-Prentice-Hall-Software/dp/013937681X/">The Unix Programming Environment</a></em>
+somehow managed to be good tutorials <em>and</em> good manuals at the same time.
+Ray and Ray’s <em><a href="http://www.amazon.com/Unix-Linux-Visual-QuickStart-Guide/dp/0321997549/">Unix and Linux: Visual Quickstart Guide</a></em>
+and Fehily’s <em><a href="http://www.amazon.com/SQL-Visual-QuickStart-Guide-3rd/dp/0321553578/">SQL: Visual Quickstart Guide</a></em>
+are among the few other books in computing to have accomplished this.</p>
+</blockquote>
+
+<h2 id="building-useful-mental-models">Building Useful Mental Models</h2>
+
+<p>There are many “positive” strategies towards building mental models.  Analogies,
+stories, role-play, and diagrams are ways to represent a structure that
+can be used as a model.</p>
+
+<p>However, there’s another, greater challenge to creating mental models.</p>
+
+<blockquote class="quotation">
+  <p>It ain’t what you don’t know that gets you into trouble.
+It’s what you know for sure that just ain’t so.<br />
+— Mark Twain</p>
+</blockquote>
+
+<p>Clearing up learners’ misconceptions is therefore as important as
+presenting them with correct information.
+Broadly speaking,
+their misconceptions may fall into three categories:</p>
+
+<ul>
+  <li>Simple <em>factual errors</em>, such as believing that Vancouver is the capital of British Columbia.
+These are simple to correct,
+but getting the facts right is not enough on its own.</li>
+  <li><em>Broken models</em>, such as believing that motion and acceleration must be in the same direction.
+We can address these by having them reason through examples to see contradictions.</li>
+  <li><em>Fundamental beliefs</em>,
+such as “the world is only a few thousand years old”
+or “human beings cannot be affecting the planet’s climate”.
+These usually cannot be addressed in class,
+since they are deeply connected to the learner’s social identity
+and often cannot be reasoned away.</li>
+</ul>
+
+<p>Again, since Software and Data Carpentry are focused on novices, and the building of
+strong mental models, we’re most interested in the middle category of misconceptions.
+While teaching, we want to expose broken models so that we can help diagnose and
+provide better ones.</p>
+
+<blockquote class="callout">
+  <h2 id="what-happens-next">What Happens Next?</h2>
+
+  <p>An example of how solving problems can help people correct broken mental models,
+consider this problem from Epstein’s <em><a href="http://www.amazon.com/Thinking-Physics-Understandable-Practical-Reality/dp/0935218084/r">Thinking Physics</a></em>.
+Imagine that you have placed a cake of ice in a bathtub
+and then filled the tub to the rim with water.
+When the ice melts,
+does the water level go up (so that the tub overflows),
+go down,
+or stay the same?
+The correct answer is that it stays the same;
+figuring out why helps people build a model of the relationship between weight, volume, and density.</p>
+</blockquote>
+
+<h2 id="assessing-mental-models">Assessing Mental Models</h2>
+
+<p>How do we expose misconceptions, especially as they pertain to broken models?  How
+can we, in-class, know whether the learners already understand this topic
+(so that the class can move on),
+and if not,
+what misconceptions and gaps in their knowledge to address.</p>
+
+<p>Instructors need feedback on their learners’ progress,
+and insight into their learners’ mental models.
+This is usually done through two kinds of assessment:</p>
+
+<ul>
+  <li><em>Summative assessment</em> is used
+to tell whether the desired learning took place
+and whether the learner is ready to move on.
+Learners either “pass” or “fail” a summative assessment.
+One example is a driving exam,
+which tells the rest of society whether someone can safely be allowed on the road.</li>
+  <li><em>Formative assessment</em> takes place during teaching and learning.
+Its main purpose is to guide by telling both the instructor and the learner what to focus on.
+Learners don’t “pass” or “fail” formative assessments.
+For example,
+a music teacher might ask a student to play a scale very slowly
+in order to see whether she is breathing correctly,
+and if she is not,
+what she should change.
+Its second purpose is to prepare learners for summative assessments:
+no one should ever encounter a question on an exam
+for which the teaching did not prepare them.</li>
+</ul>
+
+<p>For our in-class purposes, we’re most interested in formative assessment.
+In order to be useful during teaching,
+a formative assessment has to be quick to administer and evaluate.
+The most widely used is probably multiple choice questions (MCQs).
+When designed well,
+these can do much more than just measure how much someone knows.
+For example,
+suppose we are teaching children multi-digit addition.
+A well-designed MCQ would be:</p>
+
+<div class="source highlighter-rouge"><pre class="highlight"><code>Q: what is 27 + 15 ?
+a) 42
+b) 32
+c) 312
+d) 33
+</code></pre>
+</div>
+
+<p>The correct answer is 42,
+but each of the other answers provides valuable insight.</p>
+
+<blockquote class="discussion">
+  <h2 id="find-the-bug">Find the Bug</h2>
+
+  <p>What is the misconception associated with each wrong answer?</p>
+</blockquote>
+
+<blockquote class="solution">
+  <h2 id="solution">Solution</h2>
+
+  <ul>
+    <li>If the child answers 32, she is throwing away the carry completely.</li>
+    <li>If she answers 312, she knows that she can’t just discard the carried ‘1’,
+but doesn’t understand that it’s actually a ten
+and needs to be added into the next column.
+In other words,
+she is treating each column of numbers as unconnected to its neighbors.</li>
+    <li>If she answers 33 then she knows she has to carry the 1,
+but is carrying it back into the same column it came from.</li>
+  </ul>
+</blockquote>
+
+<p>Each of these incorrect answers is a <em>plausible distractor</em> with <em>diagnostic power</em>.
+“Plausible” means that it looks like it could be right:
+instructors will often put supposedly-silly answers like “a fish!” on MCQs,
+but (a) they don’t provide any insight
+and (b) learners actually don’t find them funny.
+“Diagnostic power” means that each of the distractors helps the instructor figure out
+what to explain to that particular learner next.</p>
+
+<blockquote class="discussion">
+  <h2 id="handling-outcomes">Handling Outcomes</h2>
+
+  <p>As the instructor, what should you do if most of the class votes for one
+of the wrong answers?  For the right answer?  What if the votes are evenly
+spread between options?</p>
+</blockquote>
+
+<p>If the majority of the class votes for a single wrong answer, you should go back
+and work on correcting that particular misconception.  If most of the class votes
+for the right answer, it’s probably safe to move on.  If answers are pretty evenly
+split between options, learners are probably guessing randomly and it’s a good
+idea to go back to a point where everyone was on the same page.</p>
+
+<p>Instructors should use MCQs
+or some other kind of formative assessment
+at least every 10-15 minutes
+in order to make sure that the class is actually learning.
+Since the average attention span is usually only this long,
+formative assessments also help break up instructional time
+and re-focus attention.
+Formative assessments can also be used preemptively:
+if you start a class with an MCQ and everyone can answer it correctly,
+then you can safely skip the part of the lecture
+in which you were going to explain something that your learners already know.
+(Doing this also helps show learners that the instructor cares about how much they are learning.)</p>
+
+<blockquote class="callout">
+  <h2 id="peer-instruction">Peer Instruction</h2>
+
+  <p>No matter how good a teacher is,
+she can only say one thing at a time.
+How then can she clear up many different misconceptions
+in a reasonable time?</p>
+
+  <p>The best solution developed so far is a technique called
+<em><a href="https://en.wikipedia.org/wiki/Peer_instruction">peer instruction</a></em>.
+Originally created by Eric Mazur at Harvard,
+it has been studied extensively in a wide variety of contexts, including programming.
+Peer instruction combines formative assessment with student discussion and looks
+something like this:</p>
+
+  <ol>
+    <li>Give a brief introduction to the topic.</li>
+    <li>Give students an MCQ that probes for misconceptions
+(rather than simple factual knowledge).</li>
+    <li>Have all the students vote on their answers to the MCQ.
+      <ol>
+        <li>If the students all have the right answer, move on.</li>
+        <li>If they all have the same wrong answer,
+address that specific misconception.</li>
+        <li>If they have a mix of right and wrong answers,
+give them several minutes to discuss those answers with one another
+in small groups (typically 2-4 students)
+   and then reconvene and vote again.</li>
+      </ol>
+    </li>
+  </ol>
+
+  <p>As <a href="https://www.youtube.com/watch?t=1&amp;v=2LbuoxAy56o">this video</a> shows,
+group discussion significantly improves students’ understanding
+because it forces them to clarify their thinking,
+which can be enough to call out gaps in reasoning.
+Re-polling the class then lets the instructor know if they can move on,
+or if further explanation is necessary.
+A final round of additional explanation and discussion after the correct answer is presented
+gives students one more chance to solidify their understanding.</p>
+
+  <p>Peer instruction is essentially a way to provide one-to-one mentorship in a scalable way.
+Despite this,
+we usually do not use it in our workshops because
+it takes people time to learn a new way to learn—time
+that we don’t have in our compressed two-day format.</p>
+</blockquote>
+
+<blockquote class="challenge">
+  <h2 id="modeling-novice-mental-models">Modeling Novice Mental Models</h2>
+
+  <p>Create a multiple choice question related to a topic you intend to teach
+and explain the diagnostic power of each its distractors,
+i.e., what misconception is each distractor meant to identify?</p>
+</blockquote>
+
+<blockquote class="callout">
+  <h2 id="a-note-on-mcq-design">A Note on MCQ Design</h2>
+
+  <ul>
+    <li>A good MCQ tests for conceptual misunderstanding rather than simple factual knowledge.
+If you are having a hard time coming up with diagnostic distractors,
+then either you need to think more about your learners’ mental models,
+or your question simply isn’t a good starting point for an MCQ.</li>
+    <li>When you are trying to come up with distractors,
+think about questions that learners asked or problems they had
+the last time you taught this subject.
+If you haven’t taught it before,
+think about your own misconceptions
+or ask colleagues about their experiences.</li>
+  </ul>
+</blockquote>
+
+<blockquote class="callout">
+  <h2 id="concept-inventories">Concept Inventories</h2>
+
+  <p>The <a href="https://en.wikipedia.org/wiki/Force_Concept_Inventory">Force Concept Inventory</a>
+is a set of MCQs designed to gauge understanding of basic Newtonian mechanics.
+By interviewing a large number of respondents,
+correlating their misconceptions with patterns of right and wrong answers to questions,
+and then improving the questions,
+it’s possible to construct a very precise diagnostic tool.
+However,
+it’s very costly to do this,
+and students’ ability to search for answers on the internet
+is an ever-increasing threat to its validity.</p>
+</blockquote>
+
+<p>Designing an MCQ with plausible distractors is useful
+even if it is never used in class
+because it forces the instructor to think about the learners’ mental models
+and how they might be broken—in short,
+to put themselves into the learners’ heads
+and see the topic from their point of view.</p>
+
+<blockquote class="callout">
+  <h2 id="why-we-dont-assess-during-registration">Why We Don’t Assess During Registration</h2>
+
+  <p>Unfortunately,
+most formal educational systems train people to treat all assessment as summative,
+i.e.,
+to think of every interaction with a teacher as an evaluation,
+rather than as a chance to shape instruction.
+For example,
+we use a short pre-assessment questionnaire to profile learners before workshops
+to help instructors tune the pace and level of material.
+We send this questionnaire out after people have registered
+rather than making it part of the sign-up process because when we did the latter,
+many people concluded that since they couldn’t answer all the questions,
+they shouldn’t enrol.
+We were therefore scaring off many of the people we most wanted to help.</p>
+</blockquote>
+
+<blockquote class="discussion">
+  <h2 id="other-kinds-of-formative-assessment">Other Kinds of Formative Assessment</h2>
+
+  <p>Describe another kind of formative assessment you have seen or used
+and explain how it helps both the instructor and the learner figure out
+where they are and what they need to do next.</p>
+</blockquote>
+
+
+
+<blockquote class="keypoints">
+  <h2>Key Points</h2>
+  <ul>
+    
+    <li><p>Novices: don’t know what they don’t know.</p>
+</li>
+    
+    <li><p>Competent practitioners: have a usable mental model that’s good enough for everyday purposes.</p>
+</li>
+    
+    <li><p>Expert: can handle edge cases.</p>
+</li>
+    
+    <li><p>Goal when teaching novices is to help them construct a usable mental model.</p>
+</li>
+    
+    <li><p>To do this, must clear up their misconceptions.</p>
+</li>
+    
+    <li><p>Summative assessment: done at the end of teaching to see whether learning took place.</p>
+</li>
+    
+    <li><p>Formative assessment: done during teaching to guide learning.</p>
+</li>
+    
+    <li><p>Can use multiple choice questions (MCQs) as formative assessments to diagnose misconceptions.</p>
+</li>
+    
+  </ul>
+</blockquote>
+
+
+<div class="row">
+  <div class="col-md-1">
+    <h3>
+      
+      <a href="../01-welcome/"><span class="glyphicon glyphicon-menu-left" aria-hidden="true"></span><span class="sr-only">previous episode</span></a>
+      
+    </h3>
+  </div>
+  <div class="col-md-10">
+    
+  </div>
+  <div class="col-md-1">
+    <h3>
+      
+      <a href="../03-terms/"><span class="glyphicon glyphicon-menu-right" aria-hidden="true"></span><span class="sr-only">next episode</span></a>
+      
+    </h3>
+  </div>
+</div>
+
+
+      
+      
+<footer>
+  <div class="row">
+    <div class="col-md-6" align="left">
+      <h4>
+	Copyright &copy; 2016
+	
+	<a href="https://software-carpentry.org">Software Carpentry Foundation</a>
+	
+      </h4>
+    </div>
+    <div class="col-md-6" align="right">
+      <h4>
+	<a href="/">Source</a>
+	/
+	<a href="/blob/gh-pages/CONTRIBUTING.md">Contributing</a>
+	/
+	<a href="/blob/gh-pages/CITATION">Cite</a>
+	/
+	<a href="mailto:lessons@software-carpentry.org">Contact</a>
+      </h4>
+    </div>
+  </div>
+</footer>
+
+      
+    </div>
+    
+<script src="../assets/js/jquery.min.js"></script>
+<script src="../assets/js/bootstrap.min.js"></script>
+<script src="../assets/js/lesson.js"></script>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+  ga('create', 'UA-37305346-2', 'auto');
+  ga('send', 'pageview');
+</script>
+
+  </body>
+</html>
